@@ -77,7 +77,7 @@ button { font: inherit; }
 .interior {
   min-height: 1200px;
   padding: 189px 0 137px;
-  background: #000 url("../assets/images/header.jpg") center / cover no-repeat;
+  background: #000 url("../assets/images/header.avif") center / cover no-repeat;
   text-align: center;
 }
 .livestream {
@@ -106,7 +106,7 @@ button { font: inherit; }
 .splash-page, .blog-page { background: #0c0c0c; }
 .splash {
   padding: 43px 0 71px;
-  background: url("../assets/images/final-bg.jpg") center top / cover no-repeat;
+  background: url("../assets/images/final-bg.avif") center top / cover no-repeat;
 }
 .splash img { width: min(80%, 1080px); margin-inline: auto; }
 

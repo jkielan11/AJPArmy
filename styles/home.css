@@ -44,7 +44,7 @@
   transform: translateY(calc(var(--scene-scroll, 0) * -.05px));
 }
 .storm-sky {
-  background-image: url("../assets/images/bg-new.jpg");
+  background-image: url("../assets/images/bg-new.avif");
   background-size: 100% auto;
   top: 0;
   height: calc(100% - 50px);
@@ -128,12 +128,12 @@
   pointer-events: none;
 }
 .watch-section {
-  --scene-background: url("../assets/images/final-bg.jpg");
+  --scene-background: url("../assets/images/final-bg.avif");
   --fade-midpoint: 49%;
   padding-block: 18px 44px;
 }
 .follow-section {
-  --scene-background: url("../assets/images/metal-bg-2.jpg");
+  --scene-background: url("../assets/images/metal-bg-2.avif");
   --fade-midpoint: 48%;
   min-height: 800px;
   padding-top: 95px;
@@ -180,7 +180,7 @@
 .closing-scene { height: 1500px; }
 .closing-scene .scene-frame { width: 100%; }
 .closing-sky {
-  background-image: url("../assets/images/footer-landscape.jpg");
+  background-image: url("../assets/images/footer-landscape.avif");
   background-size: cover;
 }
 .closing-soldier {
@@ -208,7 +208,7 @@
 
 @media (max-width: 980px) {
   .storm-scene { height: 750px; }
-  .storm-sky { height: 100%; background-image: url("../assets/images/bg-tablet.jpg"); }
+  .storm-sky { height: 100%; background-image: url("../assets/images/bg-tablet.avif"); }
   .storm-logo { --left: 16.2%; --top: 1.3cqw; --width: 67.72%; }
   .storm-caption { --left: 13.6%; --top: 66.15cqw; --width: 72.9%; }
   .soldiers-left, .soldiers-right, .soldiers-front { display: none; }
@@ -234,7 +234,7 @@
   .gab, .follow-secondary .pilled { margin-top: 96px; }
   .closing-line { padding: 49px 10% 0; }
   .closing-scene { height: 1150px; }
-  .closing-sky { background-image: url("../assets/images/full-footer.jpg"); }
+  .closing-sky { background-image: url("../assets/images/full-footer.avif"); }
   .closing-flag, .closing-soldier { display: none; }
 }
 
